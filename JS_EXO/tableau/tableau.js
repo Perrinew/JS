@@ -10,7 +10,7 @@ tab.forEach(i => {console.log(i);});
 
 // 2 map()
 
-var numbers = [4, 9, 16, 25];
+var numbers = [4, 9, 16, 25, 81];
 var x = numbers.map(Math.sqrt);
 console.log(x);
 
@@ -52,6 +52,7 @@ console.log(b);
 
 // 8 splice()
 const mois = ['Jan', 'Mars', 'Avril', 'Juin'];
+console.log(mois)
 mois.splice(1, 0, 'Fev');
 
 console.log(mois);
@@ -70,7 +71,7 @@ console.log(legumes);
 legumes.pop();
 
 console.log(legumes);
-
+console.log("</br>")
 // 10 find()
 const array1 = [5, 12, 8, 130, 44];
 
