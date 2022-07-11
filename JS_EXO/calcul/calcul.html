@@ -1,28 +1,26 @@
-
-
 <!DOCTYPE html>
-<html> 
+<html>
+
 <head>
-<meta charset=utf-8 />
-<title> Ticket de caisse </title>
-<style type="text/css">
-body {margin: 30px;}
-</style> 
+        <meta charset=utf-8 />
+        <title> carré d'un nombre </title>
+
 </head>
+
 <body>
-        <h1>Votre Ticket</h1>
-<form>
-Boisson : <input type="text" id="boisson" /><br>
-Plat : <input type="text" id="plat" /><br>
-Supplément : <input type="text" id="supplément" /><br>
-<input type="button" onClick="additionBy()" Value="addition" />
-<input type="button" onClick="divideBy()" Value="Divide" />
-</form>
-<p>The Result is : <br>
-<span id = "result"></span>
-</p>
+        <h1>Carré du nombre</h1>
+        <form>
+
+                Nombre : <input type="text" id="nombre" /><br>
+
+                <input type="button" onClick="carre()" Value="carré" />
+
+                <p>
+                        <span id="resultat"></span>
+                </p>
 
 
-<script src="/calcul/calcul.js"></script>
+                <script src="/calcul/calcul.js"></script>
 </body>
+
 </html>
